@@ -1,3 +1,21 @@
+/* 
+    Fonts
+    ---
+    @font-face declarations
+*/
+
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 400;
+  scr: url('../fonts/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter Web';
+  font-weight: 700;
+  scr: url('../fonts/Inter-Bold.woff2') format('woff2');
+}
+
 /*
     Elements: Page
     ---
@@ -7,7 +25,8 @@
 html {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+  /* font-family: "Inter Web", 'Helvetica Neue', Helvetica, arial, sans-serif; */
+  font-family: "droid-serif", Georgia, serif;
   color: #5c6336;
   padding: 48px 24px 24px;
 }
