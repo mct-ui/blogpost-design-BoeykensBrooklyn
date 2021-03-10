@@ -47,27 +47,30 @@ img {
     Default markup for typographic elements
 */
 
+h1,
+h2,
+h3 {
+  color: #17181a;
+}
+
 h1 {
   /* font-family: "Times New Roman", serif; */
   font-size: 36px;
   font-weight: normal;
   line-height: 40px;
   margin: 0 0 24px;
-  color: #17181a;
 }
 
 h2 {
   font-size: 23px;
   line-height: 32px;
   margin: 0 0 24px;
-  color: #17181a;
 }
 
 h3 {
   font-size: 18px;
   line-height: 24px;
   margin: 0 0 24px;
-  color: #17181a;
 }
 
 h4,
